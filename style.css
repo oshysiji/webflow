@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 50%;
+}
+
+body{
+    background: #e5e5e5;
+    font-family: "Arvo", serif;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.iphone--store{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background: #fff;
+    padding: 30px 70px;
+    padding-bottom: 0px;
+    background: rgb(255,255,255);
+    grid-column: 1 / 3;
+
+}
+
+.iphone--store img{
+    width: 48%;
+}
+
+.lead{
+    color: rgb(159,163,178);
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.touch{
+    font-size: 25px;
+    line-height: 1.3;
+    margin: 20px 0px;
+}
+
+.learn--more{
+    font-size: 13px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.rotary--labs{
+    background: rgb(247,248,249);
+    grid-column: 3 / 5;
+
+    text-align: center;
+    padding: 60px;
+    
+}
+
+.rotary--labs p{
+    font-size: 49px;
+    padding: 25px;
+    
+}
+
+.rotary--labs a{
+    color: rgb(99,208,230);
+    font-size: 14px;
+}
+
+.keyboard{
+    background: rgb(240,86,56);
+    grid-row: 2;
+
+    text-align: center;
+    padding: 50px 13px;
+}
+
+.keyboard img{
+    width: 315px;
+}
+
+.keyboard h3{
+    font-size: 24px;
+    color: rgb(255,251,251);
+    padding-bottom: 30px;
+}
+
+.keyboard a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: rgb(255,200,10);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.imac--retina{
+    background: rgb(255,255,255);
+    grid-column: 2 / 4;
+
+    display: flex;
+    justify-content: space-between;
+    /* padding: 65px; */
+    padding-bottom: 0px;
+}
+
+.retina--image{
+    width: 37%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.imac--retina img{
+    width: 425px;
+}
+
+.sub--image{
+    padding-top: 65px;
+    padding-left: 75px;
+}
+
+.retina--image p {
+    font-size: 22px;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
+.blur{
+    position: absolute;
+    /* top: 0; */
+    bottom: -4px;
+    right: 15px;
+}
+
+.retina--content{
+    width: 50%;
+    padding-top: 65px;
+    padding-right: 65px;
+}
+
+.retina--content p{
+    font-size: 15px;
+    color: rgb(177,169,167);
+    line-height: 1.7;
+    padding-bottom: 25px;
+}
+
+.retina--content a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39,185,198);
+}
+
+.meet{
+    position: relative;
+    background: rgb(143,118,188);
+    grid-column: 4;
+    grid-row: 2 / 4;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.popular{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(129,102,176);
+    margin-top: 37px; 
+    padding: 30px;  
+    gap: 20px;
+    border-radius: 50%;
+    width: 110%;
+    right: -20px;
+}
+
+.popular--lead{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    width: 102px;
+    background: rgb(139,114,182); 
+    padding: 7px 10px;
+    border-radius: 40px;
+}
+
+.popular--lead img{
+    width: 10px;
+}
+
+.popular--lead span{
+    color: rgb(248,255,255);
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.sub-popular p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(239,255,255);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.file{
+    width: 228px;
+}
+
+.icloud{
+    margin-top: 110%;
+    padding: 50px;
+}
+
+.icloud h3{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.icloud p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 2;
+    padding-bottom: 30px;
+}
+
+.icloud button{
+    background: rgb(255,200,10);
+    border: none;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.icloud button:hover{
+    cursor: pointer;
+}
+
+.games{
+    background: rgb(247,248,249);
+    padding: 40px 20px;
+}
+
+.games img{
+    width: 250px;
+}
+
+.game-content{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.game-content p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.game-content a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: rgb(39,185,194);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.twitter{
+    background: rgb(56,213,244);
+    position: relative;
+    overflow: hidden;
+}
+
+.sub-twitter{
+    background: rgb(53,207,237);
+    width: 71%;
+    height: 130%;
+    padding: 55px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -35px;
+    left: 45px;
+}
+
+.sub-twitter img{
+    width: 45px;
+}
+
+.sub-twitter p{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 7px;
+    color: rgb(255,255,254);
+}
+
+.experience{
+    background: rgb(147,182,183);
+    grid-column: 2 / 4;
+    grid-row: 3;
+    position: relative;
+}
+
+.choice{
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    color: rgb(253,229,249);
+    background: rgb(250,104,79);
+    width: 104px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.experience h3{
+    color: rgb(255,255,255);
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.ux{
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.ipad{
+    width: 550px;
+    position: absolute;
+    bottom: 0;
+}
+
+.pop--experience{
+    background: rgb(247,248,249);
+    padding-top: 40px;
+}
+
+.pop-choice{
+    background: rgb(123,196,36);
+    color: rgb(255,255,255);
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    width: 80px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.pop--experience p{
+    font-size: 23px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.vision{
+    background: rgb(44,44,44);
+    grid-column: 3 / 5;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.vision img{
+    width: 271px;
+    margin-top: -33px;
+    margin-bottom: -30px;
+}
+
+.vision p{
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-left: 90px;
+    margin-right: 100px;
+}
+
+@media(max-width: 768px){
+    .container{
+        grid-template-columns: 100px;
+    }
+
+    .iphone--store{
+        grid-row: 2;    
+        grid-column: 1 / 5;
+    
+    }
+    
+    .rotary--labs{
+    
+        grid-column: 1 / 5;
+
+    
+    }
+    
+    .keyboard{
+        grid-row: 3;
+        grid-column: 1 / 3;
+    
+    }
+
+    .games{
+        grid-row: 3;
+        grid-column: 3 / 5;
+    }
+    
+    .imac--retina{
+    
+        grid-column: 1 / 5;
+        grid-row: 4;
+        padding: 0px 30px;
+        padding-bottom: 130px;    
+    }
+
+    .imac--retina img{
+        display: none;
+    }
+
+    .twitter{
+        grid-row: 5;
+        grid-column: 1 / 3;
+    }
+    
+    .sub-twitter{
+        width: 250px;
+        height: 250px;
+        padding: 55px;
+        border-radius: 50%;
+        bottom: 27px;
+        left: 70px;
+    }
+
+    .meet{
+        grid-column: 3 / 5;
+        grid-row: 5 / 7;
+    
+    }
+
+    .popular{
+        width: 97%;
+        left: 7px;
+    }
+
+    .icloud{
+        margin-top: 92%;
+    }
+    
+    .experience{
+        grid-column: 1 / 3;
+        grid-row: 6;
+    }
+
+    .experience h3{
+        padding-top: 100px;
+    }
+
+    .ux{
+        width: 320px;
+        left: 40px;
+    }
+    
+    .ipad{
+        width: 340px;
+        left: -15px;
+    }
+    
+    .vision{
+        grid-row: 8;
+        grid-column: 1 / 5;
+    }
+
+    .vision img{
+        width: 330px;
+    }
+
+    .pop--experience{
+        grid-row: 7;
+        grid-column: 1 / 5;
+        padding-bottom: 40px;
+        
+    }
+
+    .pop--experience p{
+        margin: auto;
+        margin-top: 10px;
+    }
+
+}
+
+@media(max-width: 479px){
+
+    .container{
+        grid-template-columns: 100px;
+    }
+
+    .iphone--store{
+        grid-row: 2;    
+        grid-column: 1 / 5;
+        flex-direction: column;
+    }
+
+    .iphone--store img{
+        width: 65%;
+    }
+    
+    .rotary--labs{
+    
+        grid-column: 1 / 5;
+
+    
+    }
+    
+    .keyboard{
+        grid-row: 3;
+        grid-column: 1 / 5;
+    
+    }
+
+    .games{
+        grid-row: 4;
+        grid-column: 1 / 5;
+    }
+
+    .games img{
+        width: 300px;
+        margin-left: 50px;
+    }
+    
+    .game-content{
+        margin-left: 120px;
+    }
+    
+    .game-content p{
+        font-size: 25px;
+        padding-bottom: 50px;
+    }
+    
+    .game-content a{
+        font-size: 13px;
+    }
+
+    .imac--retina{
+    
+        grid-column: 1 / 5;
+        grid-row: 5;
+        padding: 0px 30px;
+        padding-bottom: 130px;    
+        flex-direction: column;
+    }
+
+    .imac--retina img{
+        display: none;
+    }
+
+    .retina--image{
+        width: 100%;
+    }
+
+    .retina--image p{
+        font-size: 17px;
+    }
+    
+    .retina--content{
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .retina--content p{
+        font-size: 14px;
+    }
+
+    .sub--image{
+        padding-top: 65px;
+        padding-left: 0px;    
+    }
+
+    .twitter{
+        grid-row: 7;
+        grid-column: 1 / 5;
+    }
+    
+    .sub-twitter{
+        width: 250px;
+        height: 250px;
+        padding: 55px;
+        border-radius: 50%;
+        bottom: 27px;
+        left: 70px;
+    }
+
+    .meet{
+        grid-column: 1 / 5;
+        grid-row: 8 / 10;
+    
+    }
+
+    .popular{
+        width: 77%;
+        left: 63px;
+    }
+
+    .icloud{
+        margin-top: 64%;
+        padding: 103px;
+        padding-bottom: 50px;
+    }
+    
+    .experience{
+        grid-column: 1 / 5;
+        grid-row: 7;
+    }
+
+    .experience h3{
+        padding-top: 20px;
+        padding-bottom: 180px;
+    }
+
+    .ux{
+        width: 370px;
+        left: 60px;
+    }
+    
+    .ipad{
+        width: 380px;
+        left: 5px;
+    }
+    
+    .vision{
+        grid-row: 12;
+        grid-column: 1 / 5;
+        flex-direction: column;
+        align-items: start;
+        padding-bottom: 50px;
+    }
+
+    .vision img{
+        width: 330px;
+    }
+
+    .vision p{
+        margin-right: 0px;
+        margin-left: 50px;
+    }
+
+    .pop--experience{
+        grid-row: 11;
+        grid-column: 1 / 5;
+        padding-bottom: 40px;
+        
+    }
+
+    .pop--experience p{
+        margin: auto;
+        margin-top: 10px;
+    }
+
+}
